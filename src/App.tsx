@@ -6,7 +6,7 @@ import ExamWrapper from './Pages/Exam/ExamWrapper';
 
 const App: React.FC = () => {
     return (
-        <Router>
+        <Router basename="plazop">
             <Routes>
                 <Route path="/" element={<LandingPage/>} />
                 <Route path="/guia" element={<StudyGuide/>} />

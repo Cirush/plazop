@@ -1,7 +1,18 @@
 
 import styles from './ExamStatus.module.css'; 
 
-const ExamStatus = ({ questions, answers, setCurrentQuestionIndex }) => {
+interface Question {
+    id: number;
+    questionText: string;
+}
+
+interface ExamStatusProps {
+    questions: Question[];
+    answers: { [key: number]: string };
+    setCurrentQuestionIndex: (index: number) => void;
+}
+
+const ExamStatus: React.FC<ExamStatusProps> = ({ questions, answers, setCurrentQuestionIndex }) => {
     return (
         <div className={styles.statusContainer}>
             {questions.map((question, index) => (
