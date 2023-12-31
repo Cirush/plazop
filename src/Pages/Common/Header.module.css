@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: rgb(7 148 228);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    padding: 10px 0;
+}
+
+.navItem {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #FFF; 
+}
+
+.activeNavItem {
+    font-weight: bold;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20;
+}

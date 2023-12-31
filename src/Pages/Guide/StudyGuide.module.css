@@ -1,0 +1,21 @@
+.studyGuide {
+    text-align: center;
+    padding: 20px;
+}
+
+.buttonGenerator {
+        padding: 10px 15px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(7 148 228);
+        color: white;
+}
+
+.instructions {     
+    padding: 20px;
+    text-align: justify;
+    max-width:30%;
+    margin: 0 auto;
+}

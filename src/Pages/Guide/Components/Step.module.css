@@ -1,0 +1,34 @@
+
+.stepTitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.stepContent {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.button {
+    padding: 12px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.selected {
+    background-color: #2e6730;
+    color: white;
+}
+
+.button.secondary {
+    background-color: #f0ad4e;
+}
+
+.button:last-child {
+    margin-right: 0;
+}

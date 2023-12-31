@@ -1,0 +1,62 @@
+.wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    padding: 20px;
+}
+
+.examContainer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 60%;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.statusContainer {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    border-left: 1px none #ccc;
+}
+.timer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.selectionContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.startButton {
+    background-color: rgb(7 148 228);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.startButton:hover {
+    background-color: rgb(101, 120, 193);
+}
+
+.finishButton {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    float: right;
+}

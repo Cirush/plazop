@@ -1,0 +1,17 @@
+.statusContainer {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statusItem {
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.statusItem:hover {
+    background-color: #e0e0e0;
+}

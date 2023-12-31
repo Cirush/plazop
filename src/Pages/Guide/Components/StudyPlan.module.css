@@ -1,0 +1,40 @@
+.studyPlanContainer {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.studyPlanHeader {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.studyPlanInfo {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.studyPlanList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.studyPlanListItem {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.studyPlanListItem:last-child {
+    border-bottom: none;
+}
+
+.important {
+    font-weight: bold;
+    color: #d9534f;
+}
